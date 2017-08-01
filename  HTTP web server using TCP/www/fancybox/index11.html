@@ -1,0 +1,25 @@
+<html>
+ <head>                                                       
+   <title> LED blink </title>                                 
+    <script type="text/javascript" src="zepto.min.js"></script>
+    <script type="text/javascript">
+     function button()                     
+     {                                    
+    $('#content').load('/arduino/button');
+     }                
+                         
+                                         
+ 
+
+                                                               
+                                                               
+                                                                           
+                                                                                       
+   </script>                                
+     </head>                                   
+      <body onload="setInterval(refresh, 500);">      
+       <span id="content"></span>                     
+      <button onclick=button()> Move </button> 
+     
+    </body>
+  </html>    
