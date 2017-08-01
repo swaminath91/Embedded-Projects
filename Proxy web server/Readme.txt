@@ -11,7 +11,6 @@ https://youtu.be/VUhV9V96iks
 
 
 I have completed the proxy with caching, link prefetching, keep-alive and multi-threading.
-I have submitted three code files. I apologize for that as I want to show all my work in creating new ways to implement this task
 
 1.proxy_no_caching.c - it does general proxy, receiving and sending files from server and proxy and also used forking to handle multiple simultaneos connections from several clients
                        and also checks for keep-alive connections
@@ -26,14 +25,13 @@ How I used proxy?
 4. I have used linked-list to store cached data and I have written lots of error handling functions before I implemented my caching and link pre-fetching.
 That took more time for me to complete and so I had to stick with three different codes
 5. I run a separate thread for caching and link-prefetching and so it will avoid any delays in fetching and sending data to the client
-6. keepalive connection is addresses in about:config network proxy settings page by enabling that option
+6. Keepalive connection is addressed in about:config network proxy settings page by enabling that option
 7.I have used both forking and pthreads for handling multiple-simultaneous connections
 
 
-I thank both the TA's and the Professor for their support in helping me complete this assignment.
 
-I would be happy to get feedback from TA's, if any of my functionalities don't work as expected and if I have wrongly stated as successful. I believe, I have addressed all the requirements.
-But would be happy to listen to any comments about faults in my code. I apologize for any in-covenience and I appreciate your patience in reading my document
+
+
 
 I'm again attaching my Youtube URL
 https://youtu.be/VUhV9V96iks
